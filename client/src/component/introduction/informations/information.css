@@ -1,0 +1,233 @@
+#noway {
+  opacity: 0;
+}
+
+.nom {
+  -webkit-animation: anim1 2.5s forwards;
+          animation: anim1 2.5s forwards;
+  left: 10%;
+  perspective: 100px;
+}
+
+.projet {
+  -webkit-animation: anim2 2.5s 0.2s forwards;
+          animation: anim2 2.5s 0.2s forwards;
+  left: 10%;
+  opacity: 0;
+}
+
+.nom, .projet {
+  font-family: "Ubuntu", sans-serif;
+  color: white;
+  width: 60%;
+  height: 10%;
+  text-align: left;
+  font-size: 50px;
+  text-transform: uppercase;
+  background-color: black;
+  position: absolute;
+}
+
+.download {
+  opacity: 1;
+  font-family: "Ubuntu", sans-serif;
+  font-size: 70px;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  width: 80%;
+  position: absolute;
+  bottom: 100px;
+  left: 10%;
+  text-transform: uppercase;
+}
+.download span {
+  opacity: 0;
+  -webkit-animation: download 1.5s linear forwards;
+          animation: download 1.5s linear forwards;
+}
+.download span:nth-child(1) {
+  -webkit-animation-delay: 4.5s;
+          animation-delay: 4.5s;
+}
+.download span:nth-child(2) {
+  -webkit-animation-delay: 4.6s;
+          animation-delay: 4.6s;
+}
+.download span:nth-child(3) {
+  -webkit-animation-delay: 4.7s;
+          animation-delay: 4.7s;
+}
+.download span:nth-child(4) {
+  -webkit-animation-delay: 4.8s;
+          animation-delay: 4.8s;
+}
+.download span:nth-child(5) {
+  -webkit-animation-delay: 4.9s;
+          animation-delay: 4.9s;
+}
+.download span:nth-child(6) {
+  -webkit-animation-delay: 5s;
+          animation-delay: 5s;
+}
+.download span:nth-child(7) {
+  -webkit-animation-delay: 5.1s;
+          animation-delay: 5.1s;
+}
+.download span:nth-child(8) {
+  -webkit-animation-delay: 5.2s;
+          animation-delay: 5.2s;
+}
+.download span:nth-child(9) {
+  -webkit-animation-delay: 5.3s;
+          animation-delay: 5.3s;
+}
+.download span:nth-child(10) {
+  -webkit-animation-delay: 5.4s;
+          animation-delay: 5.4s;
+}
+.download span:nth-child(11) {
+  -webkit-animation-delay: 5.5s;
+          animation-delay: 5.5s;
+}
+.download span:nth-child(12) {
+  -webkit-animation-delay: 5.6s;
+          animation-delay: 5.6s;
+}
+.download span:nth-child(13) {
+  -webkit-animation-delay: 5.7s;
+          animation-delay: 5.7s;
+}
+.download span:nth-child(14) {
+  -webkit-animation-delay: 5.8s;
+          animation-delay: 5.8s;
+}
+.download span:nth-child(15) {
+  -webkit-animation-delay: 5.9s;
+          animation-delay: 5.9s;
+}
+.download span:nth-child(16) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+.download span:nth-child(17) {
+  -webkit-animation-delay: 6.1s;
+          animation-delay: 6.1s;
+}
+
+@-webkit-keyframes anim1 {
+  0% {
+    transform: rotateX(90deg) scale(1.3);
+    top: 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg) scale(1);
+    transform: sclale(1);
+    top: 15%;
+    opacity: 1;
+  }
+}
+
+@keyframes anim1 {
+  0% {
+    transform: rotateX(90deg) scale(1.3);
+    top: 0%;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg) scale(1);
+    transform: sclale(1);
+    top: 15%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes anim2 {
+  0% {
+    transform: rotateX(90deg) scale(1.3);
+    top: 10%;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg) scale(1);
+    top: 25%;
+    opacity: 1;
+  }
+}
+@keyframes anim2 {
+  0% {
+    transform: rotateX(90deg) scale(1.3);
+    top: 10%;
+    opacity: 0;
+  }
+  100% {
+    transform: rotateX(0deg) scale(1);
+    top: 25%;
+    opacity: 1;
+  }
+}
+@-webkit-keyframes download {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes download {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .download {
+   font-size: 50px;
+  }
+}
+
+@media only screen and (max-width: 725px) {
+  .download {
+    letter-spacing: 2px;
+    font-size: 40px;
+  }
+}
+
+@media only screen and (max-width: 693px) {
+  .nom,.projet{
+      font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 528px) {
+  .download {
+    letter-spacing: 1px;
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 387px) {
+  .nom,.projet{
+    font-size: 20px;
+  }
+
+  .download {
+    letter-spacing: 1px;
+    font-size: 25px;
+  }
+}
+
+@media only screen and (max-width: 331px) {
+  .nom,.projet{
+    font-size: 15px;
+  }
+
+  .download {
+    letter-spacing: 1px;
+    font-size: 20px;
+  }
+}

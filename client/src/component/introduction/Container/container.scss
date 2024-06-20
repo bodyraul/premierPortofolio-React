@@ -1,0 +1,13 @@
+.anim-intro{
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+    background-color: black;
+    animation: transition 3s 4.5s linear forwards;
+}
+
+@keyframes transition{
+    0%{transform: translateY(0%);}
+    100%{transform: translateY(-100%); }
+}
+

@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.9775f87d.css",
+    "main.js": "/static/js/main.9259368f.js",
+    "static/media/videoSiteUnAwwward.mp4": "/static/media/videoSiteUnAwwward.f1aca27363d269c13908.mp4",
+    "static/media/videoSiteDeuxAwwward.mp4": "/static/media/videoSiteDeuxAwwward.106cabb9de1cd46de773.mp4",
+    "static/media/AppliJavaMobil.mp4": "/static/media/AppliJavaMobil.3cac1846c944643db419.mp4",
+    "static/media/appliJava.mp4": "/static/media/appliJava.f5677528e8440445725b.mp4",
+    "static/media/animationSystemeSolaire.mp4": "/static/media/animationSystemeSolaire.406e312ef9afb24ad91e.mp4",
+    "static/media/animationCSS.mp4": "/static/media/animationCSS.93a54ec2bf7dad8dacf8.mp4",
+    "static/media/voyage.jpeg": "/static/media/voyage.5d1bf31d4b35a119ba81.jpeg",
+    "static/media/profil.jpg": "/static/media/profil.41bb3ace954eb20e9650.jpg",
+    "static/media/skie.jpeg": "/static/media/skie.61431191f2bc4d7deba1.jpeg",
+    "static/media/échec.jpg": "/static/media/échec.042a04af0ce5200ca3fd.jpg",
+    "static/media/reactsvg.svg": "/static/media/reactsvg.8fbe4cc95fa66e6717be0fa00616d667.svg",
+    "static/media/javasvg.svg": "/static/media/javasvg.0777bb2f8c1c8cf8c38bf9f4ccc8d160.svg",
+    "static/media/jsSvg.svg": "/static/media/jsSvg.8cf888fc7fa4717372fe78911606eb85.svg",
+    "index.html": "/index.html",
+    "static/media/flecheDroiteSvg.svg": "/static/media/flecheDroiteSvg.4e089aba45e3ed4adf8f39e21e5a25ca.svg",
+    "static/media/flecheGaucheSVG.svg": "/static/media/flecheGaucheSVG.3ad26e50df81a5e4e54d672b56640096.svg",
+    "main.9775f87d.css.map": "/static/css/main.9775f87d.css.map",
+    "main.9259368f.js.map": "/static/js/main.9259368f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9775f87d.css",
+    "static/js/main.9259368f.js"
+  ]
+}

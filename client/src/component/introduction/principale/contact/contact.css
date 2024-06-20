@@ -1,0 +1,225 @@
+section {
+  height: 450px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.invisibleContact {
+  opacity: 0;
+}
+
+.visibleContact {
+  opacity: 1;
+}
+
+.contactBasDePage {
+  height: 450px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: white;
+  overflow: hidden;
+}
+
+#frereContactBasDePage {
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  background-color: #363636;
+  width: 100%;
+  height: 100%;
+}
+
+.apparitionContainerContact {
+  animation: apparitionContainerContact 1s ease-out forwards;
+}
+
+#contactTitre1 {
+  font-size: 70px;
+  font-weight: bold;
+  height: 15%;
+  color: black;
+  margin-top: 50px;
+  letter-spacing: 15px;
+}
+
+.afficherTitreContact {
+  animation: affichageTitreContact 1s ease-out forwards;
+}
+
+.afficherTitreContact2 {
+  animation: affichageTitreContact 1s ease-out forwards;
+}
+
+.cacherTitreContact {
+  animation: cacherTitreContact 1s ease-out forwards;
+}
+
+#logoContact {
+  height: 37%;
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  color: black;
+  position: relative;
+}
+#logoContact div:nth-child(1) {
+  height: 45px;
+  width: 45px;
+  background-color: white;
+  position: relative;
+  transform: translateX(1400px);
+}
+#logoContact div:nth-child(1) img {
+  height: 75px;
+  background-color: white;
+  position: absolute;
+  top: -15px;
+  left: -15px;
+  transition: all 0.8s;
+}
+#logoContact div:nth-child(1) img:hover {
+  cursor: pointer;
+  transform: rotateZ(360deg);
+}
+#logoContact div:nth-child(2) {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 145px;
+  transform: translateX(1400px);
+}
+#logoContact div:nth-child(2) img {
+  height: 73px;
+  background-color: white;
+  position: absolute;
+  top: -12px;
+  left: -10px;
+  transition: all 0.8s;
+}
+#logoContact div:nth-child(2) img:hover {
+  cursor: pointer;
+  transform: rotateZ(360deg);
+}
+#logoContact div:nth-child(3) {
+  height: 50px;
+  width: 50px;
+  overflow: hidden;
+  position: relative;
+  border-radius: 145px;
+  transform: translateX(1400px);
+}
+#logoContact div:nth-child(3) img {
+  height: 65px;
+  background-color: white;
+  position: absolute;
+  top: -11px;
+  left: -8px;
+  transition: all 0.8s;
+}
+#logoContact div:nth-child(3) img:hover {
+  cursor: pointer;
+  transform: rotateZ(360deg);
+}
+
+.LogoContactVisible {
+  animation: apparitionLogoContact 1s ease-out forwards;
+}
+
+#lien {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes apparitionContainerContact {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+@keyframes affichageTitreContact {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes affichageTitreContact2 {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes cacherTitreContact {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes apparitionLogoContact {
+  0% {
+    transform: translateX(1400px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+@keyframes apparitionAdresseContact {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0%);
+    opacity: 1;
+  }
+}
+@media only screen and (max-width: 1390px) {
+  #logoContact {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 1139px) {
+  #contactTitre1 {
+    font-size: 60px;
+  }
+}
+@media only screen and (max-width: 1027px) {
+  #contactTitre1 {
+    font-size: 50px;
+  }
+}
+@media only screen and (max-width: 920px) {
+  #logoContact {
+    width: 80%;
+  }
+  #contactTitre1 {
+    font-size: 50px;
+    height: 20%;
+  }
+}
+@media only screen and (max-width: 580px) {
+  #logoContact {
+    width: 100%;
+  }
+  #contactTitre1 {
+    font-size: 27px;
+    height: 9%;
+    letter-spacing: 5px;
+    margin-top: 100px;
+  }
+}/*# sourceMappingURL=contact.css.map */

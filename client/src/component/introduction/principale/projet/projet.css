@@ -1,0 +1,237 @@
+.ContainerProjet {
+  height: 900px;
+  width: 100%;
+  background-color: #363636;
+  margin-top: 100px;
+}
+
+.titreProjet {
+  font-size: 60px;
+  color: #ba9b64;
+  line-height: 1;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding-top: 80px;
+  letter-spacing: 1px;
+}
+
+.introProjet {
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 50px;
+  color: white;
+  font-size: 23px;
+  text-align: center;
+  height: 15%;
+  letter-spacing: 1px;
+  line-height: 35px;
+}
+
+.blocProjet {
+  width: 90%;
+  height: 50%;
+  margin: 0 auto;
+  margin-top: 60px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+}
+.blocProjet div {
+  height: 80%;
+  width: 30%;
+  background-color: white;
+}
+
+.blocIndividuel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.blocIndividuel .paraDessusBlocIndividuel {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  width: 100%;
+  height: 100%;
+  background-color: #363636;
+  z-index: 2;
+}
+.blocIndividuel .paravide {
+  height: 18%;
+  z-index: 1;
+}
+.blocIndividuel .paraPleine {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 80%;
+  text-align: center;
+  transition: 1s all;
+  position: relative;
+}
+.blocIndividuel .paraPleine span {
+  font-size: 23px;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.blocIndividuel .paraPleine p {
+  font-size: 16px;
+}
+.blocIndividuel:hover .paraPleine {
+  transform: translateY(-20%);
+}
+.blocIndividuel:hover .bouttonBlocProjet {
+  transform: translateY(25%);
+}
+
+.bouttonBlocProjet {
+  width: 100%;
+  height: 30%;
+  position: absolute;
+  bottom: 0%;
+  left: 0%;
+  transition: 1s all;
+  background-color: white;
+}
+.bouttonBlocProjet button {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  border: #ba9b64 solid 3px;
+  border-radius: 100px;
+  padding: 15px;
+  margin-top: 15px;
+  text-align: center;
+  transition: 0.5s;
+  width: 150px;
+}
+.bouttonBlocProjet button:hover {
+  background-color: #ba9b60;
+  color: white;
+  cursor: pointer;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+#imgReact, #imgJava, #imgJs {
+  height: 60px;
+  width: 60px;
+}
+
+.visibleIntroTitreProjet {
+  animation: containerProjetVisible 0.6s ease-out forwards;
+}
+
+@keyframes containerProjetVisible {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.35;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.blocIndividuelVisible {
+  animation: animblocIndividuelVisible 0.8s ease-in-out forwards;
+}
+
+@keyframes animblocIndividuelVisible {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+.animIntroProjetChargement {
+  animation: animChargementIntroProjet 1s ease-out forwards;
+}
+
+@keyframes animChargementIntroProjet {
+  0% {
+    transform: translateX(-100px);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+@media only screen and (max-width: 1386px) {
+  .introProjet {
+    width: 80%;
+    line-height: 40px;
+  }
+  .blocProjet {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 1120px) {
+  .blocProjet {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 70%;
+  }
+  .blocProjet div {
+    height: 30%;
+    width: 40%;
+  }
+  .ContainerProjet {
+    height: 200%;
+  }
+  .titreProjet {
+    font-size: 40px;
+    padding-top: 40px;
+  }
+  .introProjet {
+    height: 10%;
+    font-size: 20px;
+    line-height: 45px;
+    letter-spacing: 1px;
+    width: 95%;
+  }
+  .blocIndividuel .paraPleine {
+    justify-content: space-evenly;
+  }
+  .blocIndividuel .paraPleine span {
+    margin-bottom: 40px;
+    margin-top: 0px;
+  }
+}
+@media only screen and (max-width: 813px) {
+  .introProjet {
+    font-size: 15px;
+    letter-spacing: 0px;
+  }
+  .titreProjet {
+    font-size: 30px;
+  }
+  .blocProjet div {
+    width: 70%;
+  }
+}
+@media only screen and (max-width: 535px) {
+  .introProjet {
+    font-size: 13px;
+    line-height: 35px;
+    height: 10%;
+  }
+  .blocProjet div {
+    width: 85%;
+  }
+  .blocIndividuel .paraPleine p {
+    font-size: 14px;
+  }
+}/*# sourceMappingURL=projet.css.map */

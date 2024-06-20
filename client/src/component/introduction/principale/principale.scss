@@ -1,0 +1,35 @@
+.principale{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    opacity: 1;
+    font-family: 'Kaisei Opti', serif;
+    
+}
+body{
+    background-color: white;
+}
+
+.principale2{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: black;
+    animation: animprincipale2 1s 2s linear forwards;
+}
+  
+
+@keyframes animprincipale2{
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+
+
+
+
+

@@ -1,0 +1,184 @@
+.paraLienRetour{
+  margin-top: 50px;
+  margin-left: 25px;
+}
+
+.lienRetour{
+  color: #ba9b64;
+  font-size: 40px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.titreProjetCssEtJs{
+  color: #ba9b64;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 35px;
+}
+
+.descriptionDuProjet{
+  width: 100%;
+  height: 600px;
+  background-color: #363636;
+  margin: 0 auto;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+}
+
+.intituleDescriptionProjet{
+  border-bottom: 2px solid #ba9b64;
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.intituleDescriptionProjet p:nth-child(1),.intituleDescriptionProjet p:nth-child(3){
+  width: 20%;
+  height: 100%;
+}
+
+.intituleDescriptionProjet p:nth-child(1),.intituleDescriptionProjet p:nth-child(2){
+  border-right: #ba9b64 solid 2px;
+}
+
+.intituleDescriptionProjet p:nth-child(2){
+  width: 60%;
+  height: 100%;
+}
+
+.intituleDescriptionProjet p:nth-child(1),.intituleDescriptionProjet p:nth-child(2),.intituleDescriptionProjet p:nth-child(3){
+  font-size: 40px;
+  color: #ba9b64;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.descriptionIntituleProjet{
+  height: 75%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.descriptionIntituleProjet p{
+  height: 100%;
+}
+
+.enfantUnDescription{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+}
+
+.enfantUnDescription,.enfantDeuxDescription{
+  border-right: #ba9b64 solid 2px;
+}
+
+.enfantDeuxDescription{
+  width: 60%;
+  font-size: 30px;
+  letter-spacing: 1px;
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+
+.enfantDeuxDescription p{
+ height: 85%;
+ width: 85%;
+}
+
+.enfantTroisDescription{
+  padding-top: 40px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.enfantUnDescription,.enfantTroisDescription{
+  width: 20%;
+}
+
+.containerVideoSystemeSolaire{
+  width: 70%;
+  margin: 0 auto;
+  margin-top: 200px;
+}
+
+.containerVideoSystemeSolaire video{
+  width: 100%;
+}
+
+#lienForum{
+  color: white;
+}
+
+.lienRetour:hover{
+  cursor: pointer;
+}
+
+@media only screen and (max-width: 1600px) {
+  .enfantUnDescription,.enfantDeuxDescription,.enfantTroisDescription{
+    font-size: 18px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .containerVideoSystemeSolaire{
+    width: 100%;
+    margin-top: 150px;
+  }
+
+  .titreProjetCssEtJs{
+    font-size: 25px;
+    margin-top: 50px;
+  }
+
+  .lienRetour{
+    font-size: 20px;
+  }
+
+  .descriptionDuProjet{
+    margin-top: 150px;
+  }
+
+  .enfantDeuxDescription{
+    letter-spacing: 0px;
+    line-height: 30px;
+  }
+
+  .intituleDescriptionProjet p:nth-child(1),.intituleDescriptionProjet p:nth-child(2),.intituleDescriptionProjet p:nth-child(3){
+    font-size: 30px;
+  }
+
+}
+
+@media only screen and (max-width: 580px) {
+  .enfantDeuxDescription{
+    line-height: 25px;
+  }
+
+  .enfantDeuxDescription p{
+    height: 92%;
+    width: 92%;
+   }
+
+   .enfantUnDescription,.enfantDeuxDescription,.enfantTroisDescription{
+    font-size: 15px;
+  }
+
+  .titreProjetCssEtJs{
+    font-size: 20px;
+  }
+}
